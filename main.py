@@ -30,5 +30,5 @@ def organize_files(source_folder):
                 print(f"Moved {filename} to {destination_folder} folder.")
 
 # Replace 'source_folder' with the path to the directory you want to organize
-source_folder = 'C:/Users/acer/OneDrive/Desktop/automate'
+source_folder = ''#path_to--
 organize_files(source_folder)
