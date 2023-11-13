@@ -30,5 +30,5 @@ def organize_files(source_folder):
                 print(f"Moved {filename} to {destination_folder} folder.")
 
 # Set 'source_folder' to the desktop path
-source_folder = os.path.join(os.path.expanduser("~"), "C:/Users/acer/OneDrive/Desktop")
+source_folder = os.path.join(os.path.expanduser("~"), "")
 organize_files(source_folder)
