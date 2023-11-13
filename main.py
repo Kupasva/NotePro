@@ -29,6 +29,6 @@ def organize_files(source_folder):
                 shutil.move(source_path, destination_path)
                 print(f"Moved {filename} to {destination_folder} folder.")
 
-# Replace 'source_folder' with the path to the directory you want to organize
-source_folder = 'C:/Users/acer/OneDrive/Desktop/File Organizer'#path_to/dir_of/your_working_dir...
+# Set 'source_folder' to the desktop path
+source_folder = os.path.join(os.path.expanduser("~"), "C:/Users/acer/OneDrive/Desktop")
 organize_files(source_folder)
